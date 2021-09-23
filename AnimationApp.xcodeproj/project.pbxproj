@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B059575823A5005A8A2DD46 /* Pods_AnimationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195F0637FD5F350182C6201B /* Pods_AnimationApp.framework */; };
+		E8A1322F26FBDA240033BFF6 /* Effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A1322E26FBDA240033BFF6 /* Effect.swift */; };
 		E8B031CD26FBAB9200C5A83F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B031CC26FBAB9200C5A83F /* AppDelegate.swift */; };
 		E8B031CF26FBAB9200C5A83F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B031CE26FBAB9200C5A83F /* SceneDelegate.swift */; };
 		E8B031D126FBAB9200C5A83F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B031D026FBAB9200C5A83F /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 		195F0637FD5F350182C6201B /* Pods_AnimationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		851008693EAA76531A9D0812 /* Pods-AnimationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationApp.debug.xcconfig"; path = "Target Support Files/Pods-AnimationApp/Pods-AnimationApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C1F265CC878EFB0DDFA21421 /* Pods-AnimationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationApp.release.xcconfig"; path = "Target Support Files/Pods-AnimationApp/Pods-AnimationApp.release.xcconfig"; sourceTree = "<group>"; };
+		E8A1322E26FBDA240033BFF6 /* Effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effect.swift; sourceTree = "<group>"; };
 		E8B031C926FBAB9200C5A83F /* AnimationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B031CC26FBAB9200C5A83F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8B031CE26FBAB9200C5A83F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		E8A1322926FBD83B0033BFF6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E8A1322E26FBDA240033BFF6 /* Effect.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A1322F26FBDA240033BFF6 /* Effect.swift in Sources */,
 				E8B031D126FBAB9200C5A83F /* ViewController.swift in Sources */,
 				E8B031CD26FBAB9200C5A83F /* AppDelegate.swift in Sources */,
 				E8B031CF26FBAB9200C5A83F /* SceneDelegate.swift in Sources */,
@@ -397,7 +401,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q7FR5CHKB;
-				INFOPLIST_FILE = AnimationApp/Info.plist;
+				INFOPLIST_FILE = AnimationApp/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -417,7 +422,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q7FR5CHKB;
-				INFOPLIST_FILE = AnimationApp/Info.plist;
+				INFOPLIST_FILE = AnimationApp/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
